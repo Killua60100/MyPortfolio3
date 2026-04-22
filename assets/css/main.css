@@ -1077,6 +1077,29 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+	.cv-container {
+		text-align: center;
+	}
+
+		.cv-container embed {
+			margin-bottom: 1.5rem;
+		}
+
+		.cv-container .cv-download-button {
+			background-color: #1f6feb;
+			box-shadow: none;
+			color: #ffffff !important;
+			display: inline-block;
+		}
+
+			.cv-container .cv-download-button:hover {
+				background-color: #1158c7;
+			}
+
+			.cv-container .cv-download-button:active {
+				background-color: #0c47a3;
+			}
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
